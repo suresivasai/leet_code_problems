@@ -3,4 +3,5 @@ def convertTemperature(celsius):
 
 a = float(input())
 k, f = convertTemperature(a)
+
 print(f"[{k:.5f},{f:.5f}]")
